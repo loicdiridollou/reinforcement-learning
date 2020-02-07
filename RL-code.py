@@ -1,7 +1,7 @@
 import gym
 import numpy as np
 
-env	 = gym.make("MountainCar-v0")
+env	= gym.make("MountainCar-v0")
 env.reset()
 
 LEARNING_RATE = 0.1
